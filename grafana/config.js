@@ -3,7 +3,7 @@ define(['settings'], function(Settings) {
   return new Settings({
 
       datasources: {
-        influxdb: {
+        app: {
           type: 'influxdb',
           url: window.location.protocol + '//' + window.location.hostname + ':8086/db/app',
           username: 'root',
