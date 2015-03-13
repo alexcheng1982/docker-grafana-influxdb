@@ -10,9 +10,11 @@ Two InfluxDB databases `app` and `grafana` are created automatically. `app` is u
 
 ## Exposed ports
 
-* __80__   - Grafana UI
-* __8083__ - InfluxDB Admin UI
-* __8086__ - InfluxDB API
+Port | Description
+-----| -----------
+80   | Grafana UI
+8083 | InfluxDB Admin UI
+8086 | InfluxDB API
 
 
 ## How to run
